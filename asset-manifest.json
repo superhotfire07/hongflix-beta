@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/hongflix-beta/static/css/main.82398874.chunk.css",
+    "main.js": "/hongflix-beta/static/js/main.d345bf5c.chunk.js",
+    "main.js.map": "/hongflix-beta/static/js/main.d345bf5c.chunk.js.map",
+    "runtime-main.js": "/hongflix-beta/static/js/runtime-main.ffbff3d9.js",
+    "runtime-main.js.map": "/hongflix-beta/static/js/runtime-main.ffbff3d9.js.map",
+    "static/js/2.2a05cac0.chunk.js": "/hongflix-beta/static/js/2.2a05cac0.chunk.js",
+    "static/js/2.2a05cac0.chunk.js.map": "/hongflix-beta/static/js/2.2a05cac0.chunk.js.map",
+    "index.html": "/hongflix-beta/index.html",
+    "static/css/main.82398874.chunk.css.map": "/hongflix-beta/static/css/main.82398874.chunk.css.map",
+    "static/js/2.2a05cac0.chunk.js.LICENSE.txt": "/hongflix-beta/static/js/2.2a05cac0.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ffbff3d9.js",
+    "static/js/2.2a05cac0.chunk.js",
+    "static/css/main.82398874.chunk.css",
+    "static/js/main.d345bf5c.chunk.js"
+  ]
+}
