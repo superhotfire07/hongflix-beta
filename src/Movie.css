@@ -1,0 +1,256 @@
+.movie_poster:hover{
+    filter: brightness(27%);
+}
+.details{
+    color:white;
+    z-index:0;
+    font-size: 20px;
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+    transition: all;
+    transition-duration: 0.49s;
+    opacity: 0;
+}
+
+.c_movie{
+    display:flex;
+    justify-content: center;
+    margin-bottom:120px;
+}
+.c_posterDiv{
+    position: relative;
+}
+.container{
+    overflow:hidden;
+}
+
+.c_title{
+    font-size: 45px;
+}
+.c_poster{
+    transition: all;
+    transition-duration: 0.42s;
+    position:relative;
+    z-index:1;
+    height:400px;
+}
+.c_data{
+    margin-left:50px;
+}
+.c_divider{
+    display: none;
+}
+
+.divider{
+    display: none;
+}
+.movie_details{
+    color:white;
+    z-index:0;
+    font-size: 16px;
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+    transition: all;
+    transition-duration: 0.49s;
+    opacity: 0;
+}
+.movie_posterDiv{
+    position:relative;
+}
+.movie_poster{
+    position: relative;
+    z-index: 1;
+    transition: all;
+    transition-duration: 0.42s;
+}
+.movie_data{    
+    margin-left:45px;
+}
+.movie_year{
+    font-size: 18px;
+}
+.movie_genres{
+    font-size: 18px;
+}
+.movie_runtime{
+    font-size: 18px;
+}
+.movie_rating{
+    font-size: 18px;
+}
+
+.movie{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom:130px;
+}
+.movie_modal_divider{
+    display: inline;
+}
+.movie_modal{
+    height:600px;
+    overflow-y: scroll;
+    background-color: rgb(24, 22, 22); 
+    z-index:5;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: inherit;
+}
+.iframebox iframe{
+    position: absolute;
+    width:100%;
+    height:100%;
+}
+.iframebox{
+    position: relative;
+    width:100%;
+    padding-bottom: 56.25%;
+}
+.movie_modal_summary{
+    margin-top:10px;
+}
+.movie_modal_data{
+    margin-top:10px;
+}
+.movie_modal_data > h5{
+    font-size: 15px;
+    display: inline;
+}
+.movie_modal_bg{
+    z-index: 4;
+    position: fixed;
+    top:0;
+    left:0;
+    background-color: rgba(0,0,0,0.8);
+    width:100%;
+    height:100%;
+    display: none;
+}
+@media screen and (max-width: 1200px){
+
+    .movie_data{
+        margin-left:25px;
+    }
+    .movie_poster{
+        height:280px;
+    }
+    .movie_summary{
+        font-size:12px;
+    }
+    .movie_title{
+        font-size: 20px;
+    }
+    .movie_genres{
+        font-size: 14px;
+    }
+    .movie_rating{
+        font-size: 14px;
+    }
+    .movie_runtime{
+        font-size: 14px;
+    }
+    .movie_year{
+        font-size: 14px;
+    }
+
+    .c_poster{
+        height:350px;
+    }
+    .c_title{
+        font-size:24px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+
+    .movie{
+        display: flex;
+        justify-content: center;
+    }
+
+    .c_movie{
+        display:block;
+        text-align: center;
+    }
+    .c_data{
+        font-size:10px;
+        margin-left:0px;
+        margin-top:35px;
+    }
+    .c_title{
+        font-size:30px;
+    }
+    .c_summary{
+        display:none;
+    }
+    .c_year{
+        display: inline;
+    }
+    .c_runtime{
+        display: inline;
+    }
+    .c_genres{
+        display: inline;
+    }
+    .c_divider{
+        display:inline;
+    }
+    .movie_modal_data > h2 {
+        font-size:20px;
+    }
+    .movie_modal_data > h5{
+        font-size:15px;
+    }
+    .movie_modal_data > p{
+        font-size: 15px;
+    }
+    
+}
+
+@media screen and (max-width: 768px){
+    .movie_modal{
+        height:480px;
+    }
+    .movie_data{
+        margin-top:15px;
+        margin-left:0px;
+        text-align: center;
+        width:100%;
+    }
+    .movie{
+        display: block;
+    }
+    .divider{
+        display: inline;
+    }
+    .movie_rating{
+        display: inline;
+    }
+    .movie_year{
+        display: inline;
+    }
+    .movie_runtime{
+        display: inline;
+    }
+    .movie_genres{
+        display: inline;
+    }
+    .movie_summary{
+        display: none;
+    }
+    .movie_title{
+        font-size: 20px;
+    }
+    .iframebox{
+        text-align: left;
+    }
+    .c_title{
+        font-size:23px;
+    }
+}

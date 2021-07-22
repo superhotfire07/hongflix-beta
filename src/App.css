@@ -1,0 +1,148 @@
+a {text-decoration:none;}
+
+.genres:link {text-decoration:none; color:#a3a1a1;}
+.genres:active {text-decoration:none; color:#a3a1a1; }
+.genres:hover {text-decoration:none; color:#a3a1a1;}
+.genres:visited { text-decoration:none;color:#a3a1a1;}
+ 
+.navbar-brand:link { text-decoration:none;color:white;}
+.navbar-brand:hover {text-decoration:none;color:white;}
+.navbar-brand:active {text-decoration:none;color:white;}
+.navbar-brand:visited { text-decoration:none;color:white;}
+
+.genres{
+
+  color:#8b8687;
+}
+
+#logo{
+  margin-top:-10px;
+}
+
+nav{
+  background-color:black;
+}
+
+
+.Btn{
+  color:#a3a1a1;
+  transition: all;
+  transition-duration: 0.1s;
+}
+
+i:hover{
+  color:#e3dede;
+}
+
+.navbar-brand{
+  color:white;
+}
+
+#logo{
+  margin-top:1.8px;
+}
+
+.all{
+  font-family: Arial, sans-serif;
+  background-color:black;
+}
+
+.movies{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color:white;
+  position: relative;
+  z-index:0;
+}
+
+.loader__text{
+  font-size:xx-large;
+  position:absolute;
+  left:50%;
+  top:50%;
+  transform: translate(-50%,-50%);
+}
+
+body{
+  background-color: black;
+}
+
+.none{
+  display:none;
+}
+
+.carousel__movie{
+  padding-top:140px;
+  color:white;
+  background-color: black;
+  display: none;
+  position: relative;
+  z-index:1;
+}
+
+.showing{ 
+  animation: fade-in 0.8s;
+  animation-fill-mode: forwards;
+  display:flex;
+}
+
+.disappearAni {
+  animation: fade-out 0.8s;
+  animation-fill-mode: forwards;
+}
+
+.showing_modal{
+  animation: fade-in 0.8s;
+  animation-fill-mode: forwards;
+}
+
+.preBtn{
+  color:#8b8687;
+  margin-top: 320px;
+  margin-left:45px;
+}
+
+.nextBtn{
+  color:#8b8687;
+  margin-top: 320px;
+  margin-right:45px;
+}
+
+#carousel_top{
+  display:flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+}
+
+.movies{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-out {
+  from {
+    opacity: 1;
+
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .movies{
+    display: block;
+    text-align: center;
+  }
+}
