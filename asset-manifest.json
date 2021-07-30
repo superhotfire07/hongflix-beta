@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/hongflix-beta/static/css/main.d635cbc2.chunk.css",
-    "main.js": "/hongflix-beta/static/js/main.c9438665.chunk.js",
-    "main.js.map": "/hongflix-beta/static/js/main.c9438665.chunk.js.map",
+    "main.css": "/hongflix-beta/static/css/main.a02ea9ed.chunk.css",
+    "main.js": "/hongflix-beta/static/js/main.1858395c.chunk.js",
+    "main.js.map": "/hongflix-beta/static/js/main.1858395c.chunk.js.map",
     "runtime-main.js": "/hongflix-beta/static/js/runtime-main.ffbff3d9.js",
     "runtime-main.js.map": "/hongflix-beta/static/js/runtime-main.ffbff3d9.js.map",
     "static/js/2.7353918e.chunk.js": "/hongflix-beta/static/js/2.7353918e.chunk.js",
     "static/js/2.7353918e.chunk.js.map": "/hongflix-beta/static/js/2.7353918e.chunk.js.map",
     "index.html": "/hongflix-beta/index.html",
-    "static/css/main.d635cbc2.chunk.css.map": "/hongflix-beta/static/css/main.d635cbc2.chunk.css.map",
+    "static/css/main.a02ea9ed.chunk.css.map": "/hongflix-beta/static/css/main.a02ea9ed.chunk.css.map",
     "static/js/2.7353918e.chunk.js.LICENSE.txt": "/hongflix-beta/static/js/2.7353918e.chunk.js.LICENSE.txt",
     "static/media/drama.12dec0c1.jpg": "/hongflix-beta/static/media/drama.12dec0c1.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.ffbff3d9.js",
     "static/js/2.7353918e.chunk.js",
-    "static/css/main.d635cbc2.chunk.css",
-    "static/js/main.c9438665.chunk.js"
+    "static/css/main.a02ea9ed.chunk.css",
+    "static/js/main.1858395c.chunk.js"
   ]
 }
